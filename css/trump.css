@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*全局样式*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,form, input, p, th, td { margin:0; padding:0; }
+body { font-size:18px; color:#666; font-family:Verdana, Microsoft YaHei, Simsun; background:#FEFEFE; }
+img { border:0; }
+ol,ul{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%;/*统一字号*/ font-weight:normal; }
+em { font-style:normal; }
+input, button, select, textarea {outline:none; border:none; }
+textarea { resize:none; }
+
+a { color: #666; text-decoration:none; }
+a:hover { color: #f40;  }
+
+/*主体开始*/
+.bg{width: 100%; height: auto; margin: 100px auto; /* background: #AFC; */ }
+.box{width: 151px; height: 196px; margin: 0 auto; /* background: #F40; */ position: relative; overflow: hidden; cursor: pointer;  }
+img{display: block; float:left; cursor: pointer; display: none; }
+.clicknum{position: absolute; right: 0px; top: 20px; width: 30px; height: 30px; /* background: #C52; */ line-height: 30px; text-align: center; }
+.clicknum h2{font-weight: bold; font-size: 20px; color:#F33;  }
+.plus1{position: absolute; right: 36px; top: 10px; width: 30px; height: 30px; /* background: #C52; */ line-height: 30px; text-align: center; opacity:0; }
+.plus1 h2{ font-size: 12px; color:#F33; font-weight:bold;  }
+.yeah{position: absolute; right: 36px; top: 10px; width: 30px; height: 30px; /* background: #C52; */ line-height: 30px; text-align: center; opacity:0; }
+.yeah h2{ font-size: 12px; color:#F33; font-weight:bold;  }
+img.current{display: block; }
+p{text-align: center; line-height: 40px;}
+.text{height:100px;}
+.word1,.word2{color: #F33; text-align: center; line-height: 40px; font-size:24px; font-weight:bold; opacity:0; }
+.emoji{width: 64px; height: 64px; background:url(../images/huaji1.gif) no-repeat; position:absolute; left:0; top:0; }
